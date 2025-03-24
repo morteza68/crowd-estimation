@@ -6,4 +6,4 @@ requests>=2.25.0
 matplotlib>=3.7.3 
 tensorflow>=2.14.0
 deepface>=0.0.79
-line_profiler
+line_profiler>=4.1.1
