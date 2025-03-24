@@ -8,3 +8,4 @@ tensorflow>=2.19.0
 deepface>=0.0.75
 line_profiler>=4.1.1
 keras==2.9.0
+argparse 1.4.0
