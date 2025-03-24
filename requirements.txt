@@ -4,6 +4,6 @@ numpy>=1.20.0
 torch>=1.7.0
 requests>=2.25.0
 matplotlib>=3.7.3 
-tensorflow>=2.14.0
+tensorflow>=2.19.0
 deepface>=0.0.75
 line_profiler>=4.1.1
