@@ -1,0 +1,22 @@
+# نصب کتابخانه جدید و حذف ورژن قبلی
+#!pip uninstall deepface -y
+#!pip install deepface==0.0.75
+# لیست همه کتابخانه ها
+!pip list
+# نصب کتابخانه بالاتر مساوی این ورژن
+!pip install keras>=2.9.0
+# عدم نمایش فرآیند اجرا
+#!pip install deepface==0.0.75; simicolon
+# ! اجرای کامند در محیط jupyter
+# نصب توامان چند کتابخانه
+#pip install opencv-python numpy deepface tensorflow matplotlib requests
+# کامنت چند خط همزمان
+# ctrl+/
+# ایجاد محیط مجازی venv
+python -m venv crowd_env
+# فعال‌سازی محیط مجازی در ویندوز
+crowd_env\Scripts\activate
+# فعال‌سازی محیط مجازی در لینوکس/مک
+source crowd_env/bin/activate
+# نصب کتابخانه ها از طریق فایل txt
+pip install -r requirements.txt
